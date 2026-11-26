@@ -1,6 +1,15 @@
 # RAG Multi Modal Agentique
 
 Application RAG multimodale et agentique sur l'article « Attention is all you need ».
+## Planning du projet
+
+| Étape | Description | Date |
+|---|---|---|
+| Étape 0 | Initialisation du projet | 02/11/2026 |
+| Étape 1 | Extraction du texte et des images avec PyMuPDF | 04/11/2026 |
+| Étape 2 | Embeddings CLIP et découpage en chunks | 05/11/2026 |
+| Étape 4 | Recherche multimodale par similarité cosinus | 07/11/2026 |
+| README | Documentation du projet | 10/11/2026 |
 
 ## Pipeline
 1. Extraction texte et images du PDF (PyMuPDF)
