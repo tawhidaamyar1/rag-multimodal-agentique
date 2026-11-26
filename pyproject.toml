@@ -1,0 +1,28 @@
+[project]
+name = "rag-multimodal-agentique"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Tawhida AMYAR", email = "tawhidaamyar2@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "chromadb>=1.5.9",
+    "ipykernel>=7.4.0",
+    "langchain>=1.5.2",
+    "langchain-ollama>=1.2.0",
+    "langchain-text-splitters>=1.2.0",
+    "langgraph>=1.2.24",
+    "open-clip-torch>=4.2.2",
+    "pillow>=13.0.0",
+    "pymupdf>=2.2",
+    "torch>=2.15.0",
+]
+
+[project.scripts]
+rag-multimodal-agentique = "rag_multimodal_agentique:main"
+
+[build-system]
+requires = ["uv_build>=0.13.0,<0.14.0"]
+build-backend = "uv_build"
